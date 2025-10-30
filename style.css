@@ -1,0 +1,86 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    gap: 80px;
+
+    padding: 15px 40px;
+    background-color: #0a0a23;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.logo-section img {
+    height: 60px;
+    width: auto;
+}
+
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ff8b6b;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #ffffff;
+}
+
+
+body {
+    margin: 0;
+    padding-top: 100px;
+    /* ruimte voor navbar */
+    background-color: rgb(3, 3, 52);
+    color: #F06C65;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+ul {
+    list-style: none;
+    /* haalt de puntjes weg */
+    padding: 0;
+    /* verwijdert de standaard inspringing */
+    margin: 0;
+    /* optioneel: zorgt voor strakkere uitlijning */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+
+footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #F06C65;
+}
